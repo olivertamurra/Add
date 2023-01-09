@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Javascript File -->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Main -->
+    <section class="main">
+      <!-- Inputs -->
+      <div class="input-div">
+        <!-- Name -->
+        <input
+          type="text"
+          id="name-input"
+          class="name-input"
+          placeholder="Emri"
+        />
+        <!-- Role -->
+        <select class="role-select" name="role-select" id="role-select">
+          <option value="student" selected>Student</option>
+          <option value="teacher">Mesues</option>
+        </select>
+        <!-- Submit Button -->
+        <button class="submit-button" id="submit-button">
+          <!-- ADD ICON -->
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+            />
+          </svg>
+          Shto
+        </button>
+      </div>
+      <!-- List -->
+      <div class="list-div">
+        <div class="search-div">
+          <!-- Search -->
+          <input
+            type="text"
+            id="search-input"
+            class="name-input"
+            placeholder="Kerko"
+          />
+        </div>
+        <div class="members-div">
+          <ul id="members-list" class="members-list">
+            <!-- List items are added by javascript -->
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
